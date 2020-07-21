@@ -24,6 +24,7 @@ class School
     @roster.collect do |grade, students|
       students = students.sort
       binding.pry
+      @roster[grade] = students
     end
     @roster.sort
   end
