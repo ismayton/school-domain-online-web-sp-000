@@ -25,6 +25,7 @@ class School
       grade.collect do |grade, students|
         students.sort
         binding.pry
+      end
     end
     @roster.sort
   end
