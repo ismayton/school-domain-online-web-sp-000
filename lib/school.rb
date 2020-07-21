@@ -26,7 +26,8 @@ class School
       @roster[grade] = students
       binding.pry
     end
-    @roster.sort
+    @roster = @roster.sort
+    @roster
   end
 
 end
